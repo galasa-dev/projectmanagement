@@ -1,9 +1,3 @@
----
-path: "/docs/support/contributing"
-title: "Contributing to Galasa"
----
-
-
 # Contributing to Galasa
 
 Anyone can contribute to the Galasa project and we welcome your contributions!
