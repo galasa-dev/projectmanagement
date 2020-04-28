@@ -10,6 +10,8 @@ There are multiple ways to contribute: report bugs, fix bugs, contribute code, i
 ## Raising issues
 Please raise any bug reports on the [Galasa project repository's GitHub issue tracker](https://github.com/galasa-dev/projectmanagement/issues). Be sure to search the list to see if your issue has already been raised. If your issue is already raised, feel free to leave a comment to let us know you have found the same issue or to add useful information. See something that you might be able to help with? Show us your best solution!
 
+You can raise a new issue by clicking the "New issue" button on the [Issues tab](https://github.com/galasa-dev/projectmanagement/issues) of the project management repository. Add a title and description for your issue. If you can, label your issue to help describe what area(s) the issue falls under. You can select more than one label if applicable. When you're finished, click "Submit new issue".
+
 A good bug report is one that make it easy for everyone to understand what you were trying to do and what went wrong. Provide as much context as possible so we can try to recreate the issue.
 
 
