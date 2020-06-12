@@ -4,7 +4,7 @@ This repository contains issues that have been raised for Galasa. These issues m
 
 ## Documentation
 
-More information can be found on the [Galasa Homepage](https://galasa.dev). Questions related to the usage of Galasa can be posted on the <a href="https://galasa.slack.com" target="_blank"> Galasa Slack channel</a>. If you're not a member of the Slack channel yet, you can <a href="https://join.slack.com/t/galasa/shared_invite/zt-ele2ic8x-VepEO1o13t4Jtb3ZuM4RUA" target="_blank"> register to join</a>.
+More information can be found on the [Galasa Homepage](https://galasa.dev). Post any of your questions about Galasa on the <a href="https://join.slack.com/t/galasa/shared_invite/zt-ele2ic8x-VepEO1o13t4Jtb3ZuM4RUA" target="_blank"> Galasa Slack channel</a> - just register to join. 
 
 ## Where can I get the latest release?
 
