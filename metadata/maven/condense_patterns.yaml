@@ -1,0 +1,12 @@
+# Condenses maven artifact paths to a gouped path
+/dev/galasa/.*: /dev/galasa/
+/org/apache/.*: /org/apache/
+/org/bouncycastle/.*: /org/bouncycastle/
+/org/codehaus/plexus/.*: /org/codehaus/plexus/
+/org/eclipse/.*: /org/eclipse/
+/xerces/.*: /xerces/
+/javax/.*: /javax/
+/commons-.*: /commons-
+/com/sun/.*: /com/sun/
+/com/google/.*: /com/google/
+
