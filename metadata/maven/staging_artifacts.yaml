@@ -20,6 +20,8 @@ stage:
 - dev.galasa:dev.galasa.framework.api.launcher
 - dev.galasa:dev.galasa.framework.api.runs
 - dev.galasa:dev.galasa.framework.api.testcatalog
+- dev.galasa:dev.galasa.framework.api.cps
+- dev.galasa:dev.galasa.framework.api.ras
 - dev.galasa:dev.galasa.framework.docker.controller
 - dev.galasa:dev.galasa.framework.k8s.controller
 - dev.galasa:dev.galasa.framework.maven.repository
@@ -93,6 +95,7 @@ stage:
 - dev.galasa:dev.galasa.zostsocommand.ssh.manager
 - dev.galasa:dev.galasa.zosunixcommand.ssh.manager
 - dev.galasa:galasastaging-maven-plugin
+- dev.galasa:galasa-testharness
 intermediary:
 - dev.galasa:galasa-eclipse-parent
 - dev.galasa:dev.galasa.eclipse
