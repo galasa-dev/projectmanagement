@@ -1,111 +1,111 @@
 stage:
-  - dev.galasa:com.auth0.jwt
-  - dev.galasa:com.jcraft.jsch
-  - dev.galasa:dev.galasa
-  - dev.galasa:dev.galasa.artifact.manager
-  - dev.galasa:dev.galasa.artifact.manager.ivt
-  - dev.galasa:dev.galasa.core.manager
-  - dev.galasa:dev.galasa.core.manager.ivt
-  - dev.galasa:dev.galasa.cps.etcd
-  - dev.galasa:dev.galasa.devtools
-  - dev.galasa:dev.galasa.devtools.karaf
-  - dev.galasa:dev.galasa.devtools.karaffeature
-  - dev.galasa:dev.galasa.devtools.obr
-  - dev.galasa:dev.galasa.extensions.obr
-  - dev.galasa:dev.galasa.framework
-  - dev.galasa:dev.galasa.framework.api
-  - dev.galasa:dev.galasa.framework.api.authentication
-  - dev.galasa:dev.galasa.framework.api.bootstrap
-  - dev.galasa:dev.galasa.framework.api.health
-  - dev.galasa:dev.galasa.framework.api.launcher
-  - dev.galasa:dev.galasa.framework.api.runs
-  - dev.galasa:dev.galasa.framework.api.testcatalog
-  - dev.galasa:dev.galasa.framework.docker.controller
-  - dev.galasa:dev.galasa.framework.k8s.controller
-  - dev.galasa:dev.galasa.framework.maven.repository
-  - dev.galasa:dev.galasa.framework.maven.repository.spi
-  - dev.galasa:dev.galasa.framework.metrics
-  - dev.galasa:dev.galasa.framework.obr
-  - dev.galasa:dev.galasa.framework.resource.management
-  - dev.galasa:dev.galasa.http.manager
-  - dev.galasa:dev.galasa.http.manager.ivt
-  - dev.galasa:dev.galasa.inttests
-  - dev.galasa:dev.galasa.inttests.obr
-  - dev.galasa:dev.galasa.ipnetwork.manager
-  - dev.galasa:dev.galasa.karaf.master.api.feature
-  - dev.galasa:dev.galasa.linux.manager
-  - dev.galasa:dev.galasa.linux.manager.ivt
-  - dev.galasa:dev.galasa.managers.obr
-  - dev.galasa:dev.galasa.openstack.manager
-  - dev.galasa:dev.galasa.ras.couchdb
-  - dev.galasa:dev.galasa.simbank.manager
-  - dev.galasa:dev.galasa.simbank.obr
-  - dev.galasa:dev.galasa.simbank.tests
-  - dev.galasa:dev.galasa.uber.karaffeature
-  - dev.galasa:dev.galasa.uber.obr
-  - dev.galasa:dev.galasa.zos.manager
-  - dev.galasa:dev.galasa.zos.manager.ivt
-  - dev.galasa:dev.galasa.zos3270.common
-  - dev.galasa:dev.galasa.zos3270.devtools
-  - dev.galasa:dev.galasa.zos3270.manager
-  - dev.galasa:dev.galasa.zos3270.manager.ivt
-  - dev.galasa:dev.galasa.zosbatch.zosmf.manager
-  - dev.galasa:dev.galasa.zosconsole.zosmf.manager
-  - dev.galasa:dev.galasa.zosfile.zosmf.manager
-  - dev.galasa:dev.galasa.zosmf.manager
-  - dev.galasa:galasa-bom
-  - dev.galasa:galasa-boot
-  - dev.galasa:galasa-demo-archetype
-  - dev.galasa:galasa-extensions-parent
-  - dev.galasa:galasa-inttests-parent
-  - dev.galasa:galasa-managers-cloud-parent
-  - dev.galasa:galasa-managers-comms-parent
-  - dev.galasa:galasa-managers-core-parent
-  - dev.galasa:galasa-managers-parent
-  - dev.galasa:galasa-managers-unix-parent
-  - dev.galasa:galasa-managers-zos-parent
-  - dev.galasa:galasa-maven-plugin
-  - dev.galasa:galasa-parent
-  - dev.galasa:galasa-simbanktests-parent
-  - dev.galasa:galasa-simplatform
-  - dev.galasa:galasa-wrapping-parent
-  - dev.galasa:galasautils-maven-plugin
-  - dev.galasa:dev.galasa.docker.manager
-  - dev.galasa:dev.galasa.docker.manager.ivt
-  - dev.galasa:dev.galasa.elasticlog.manager
-  - dev.galasa:dev.galasa.elasticlog.manager.ivt
-  - dev.galasa:dev.galasa.galasaecosystem.manager
-  - dev.galasa:dev.galasa.galasaecosystem.manager.ivt
-  - dev.galasa:dev.galasa.kubernetes.manager
-  - dev.galasa:dev.galasa.kubernetes.manager.ivt
-  - dev.galasa:galasa-managers-logging-parent
-  - dev.galasa:galasa-managers-other-parent
-  - dev.galasa:dev.galasa.cicsts.ceci.manager
-  - dev.galasa:dev.galasa.cicsts.manager
-  - dev.galasa:galasa-managers-cicsts-parent
-  - dev.galasa:dev.galasa.jmeter.manager
-  - dev.galasa:dev.galasa.jmeter.manager.ivt
-  - dev.galasa:dev.galasa.selenium.manager
-  - dev.galasa:dev.galasa.selenium.manager.ivt
-  - dev.galasa:galasa-managers-testingtools-parent
-  - dev.galasa:dev.galasa.zostso.ssh.manager
-  - dev.galasa:dev.galasa.zosunix.ssh.manager
-  - dev.galasa:dev.galasa.zostsocommand.ssh.manager
-  - dev.galasa:dev.galasa.zosunixcommand.ssh.manager
-  - dev.galasa:galasastaging-maven-plugin
-  intermediary:
-  - dev.galasa:galasa-eclipse-parent
-  - dev.galasa:dev.galasa.eclipse
-  - dev.galasa:dev.galasa.eclipse.feature
-  - dev.galasa:dev.galasa.eclipse.site
-  - dev.galasa:dev.galasa.jenkins
-  - dev.galasa:dev.galasa.simbank.feature
-  - dev.galasa:dev.galasa.simbank.ui
-  - dev.galasa:dev.galasa.zos.feature
-  - dev.galasa:dev.galasa.zos3270.ui
-  - dev.galasa:galasa-master-api-server
-  - dev.galasa:galasa-simbank-eclipse
-  - dev.galasa:galasa-uber-javadoc
-  - dev.galasa:runtime
-  - dev.galasa:dev.galasa.simbank.translation
-  - dev.galasa:galasa-simbank-maven
+- dev.galasa:com.auth0.jwt
+- dev.galasa:com.jcraft.jsch
+- dev.galasa:dev.galasa
+- dev.galasa:dev.galasa.artifact.manager
+- dev.galasa:dev.galasa.artifact.manager.ivt
+- dev.galasa:dev.galasa.core.manager
+- dev.galasa:dev.galasa.core.manager.ivt
+- dev.galasa:dev.galasa.cps.etcd
+- dev.galasa:dev.galasa.devtools
+- dev.galasa:dev.galasa.devtools.karaf
+- dev.galasa:dev.galasa.devtools.karaffeature
+- dev.galasa:dev.galasa.devtools.obr
+- dev.galasa:dev.galasa.extensions.obr
+- dev.galasa:dev.galasa.framework
+- dev.galasa:dev.galasa.framework.api
+- dev.galasa:dev.galasa.framework.api.authentication
+- dev.galasa:dev.galasa.framework.api.bootstrap
+- dev.galasa:dev.galasa.framework.api.health
+- dev.galasa:dev.galasa.framework.api.launcher
+- dev.galasa:dev.galasa.framework.api.runs
+- dev.galasa:dev.galasa.framework.api.testcatalog
+- dev.galasa:dev.galasa.framework.docker.controller
+- dev.galasa:dev.galasa.framework.k8s.controller
+- dev.galasa:dev.galasa.framework.maven.repository
+- dev.galasa:dev.galasa.framework.maven.repository.spi
+- dev.galasa:dev.galasa.framework.metrics
+- dev.galasa:dev.galasa.framework.obr
+- dev.galasa:dev.galasa.framework.resource.management
+- dev.galasa:dev.galasa.http.manager
+- dev.galasa:dev.galasa.http.manager.ivt
+- dev.galasa:dev.galasa.inttests
+- dev.galasa:dev.galasa.inttests.obr
+- dev.galasa:dev.galasa.ipnetwork.manager
+- dev.galasa:dev.galasa.karaf.master.api.feature
+- dev.galasa:dev.galasa.linux.manager
+- dev.galasa:dev.galasa.linux.manager.ivt
+- dev.galasa:dev.galasa.managers.obr
+- dev.galasa:dev.galasa.openstack.manager
+- dev.galasa:dev.galasa.ras.couchdb
+- dev.galasa:dev.galasa.simbank.manager
+- dev.galasa:dev.galasa.simbank.obr
+- dev.galasa:dev.galasa.simbank.tests
+- dev.galasa:dev.galasa.uber.karaffeature
+- dev.galasa:dev.galasa.uber.obr
+- dev.galasa:dev.galasa.zos.manager
+- dev.galasa:dev.galasa.zos.manager.ivt
+- dev.galasa:dev.galasa.zos3270.common
+- dev.galasa:dev.galasa.zos3270.devtools
+- dev.galasa:dev.galasa.zos3270.manager
+- dev.galasa:dev.galasa.zos3270.manager.ivt
+- dev.galasa:dev.galasa.zosbatch.zosmf.manager
+- dev.galasa:dev.galasa.zosconsole.zosmf.manager
+- dev.galasa:dev.galasa.zosfile.zosmf.manager
+- dev.galasa:dev.galasa.zosmf.manager
+- dev.galasa:galasa-bom
+- dev.galasa:galasa-boot
+- dev.galasa:galasa-demo-archetype
+- dev.galasa:galasa-extensions-parent
+- dev.galasa:galasa-inttests-parent
+- dev.galasa:galasa-managers-cloud-parent
+- dev.galasa:galasa-managers-comms-parent
+- dev.galasa:galasa-managers-core-parent
+- dev.galasa:galasa-managers-parent
+- dev.galasa:galasa-managers-unix-parent
+- dev.galasa:galasa-managers-zos-parent
+- dev.galasa:galasa-maven-plugin
+- dev.galasa:galasa-parent
+- dev.galasa:galasa-simbanktests-parent
+- dev.galasa:galasa-simplatform
+- dev.galasa:galasa-wrapping-parent
+- dev.galasa:galasautils-maven-plugin
+- dev.galasa:dev.galasa.docker.manager
+- dev.galasa:dev.galasa.docker.manager.ivt
+- dev.galasa:dev.galasa.elasticlog.manager
+- dev.galasa:dev.galasa.elasticlog.manager.ivt
+- dev.galasa:dev.galasa.galasaecosystem.manager
+- dev.galasa:dev.galasa.galasaecosystem.manager.ivt
+- dev.galasa:dev.galasa.kubernetes.manager
+- dev.galasa:dev.galasa.kubernetes.manager.ivt
+- dev.galasa:galasa-managers-logging-parent
+- dev.galasa:galasa-managers-other-parent
+- dev.galasa:dev.galasa.cicsts.ceci.manager
+- dev.galasa:dev.galasa.cicsts.manager
+- dev.galasa:galasa-managers-cicsts-parent
+- dev.galasa:dev.galasa.jmeter.manager
+- dev.galasa:dev.galasa.jmeter.manager.ivt
+- dev.galasa:dev.galasa.selenium.manager
+- dev.galasa:dev.galasa.selenium.manager.ivt
+- dev.galasa:galasa-managers-testingtools-parent
+- dev.galasa:dev.galasa.zostso.ssh.manager
+- dev.galasa:dev.galasa.zosunix.ssh.manager
+- dev.galasa:dev.galasa.zostsocommand.ssh.manager
+- dev.galasa:dev.galasa.zosunixcommand.ssh.manager
+- dev.galasa:galasastaging-maven-plugin
+intermediary:
+- dev.galasa:galasa-eclipse-parent
+- dev.galasa:dev.galasa.eclipse
+- dev.galasa:dev.galasa.eclipse.feature
+- dev.galasa:dev.galasa.eclipse.site
+- dev.galasa:dev.galasa.jenkins
+- dev.galasa:dev.galasa.simbank.feature
+- dev.galasa:dev.galasa.simbank.ui
+- dev.galasa:dev.galasa.zos.feature
+- dev.galasa:dev.galasa.zos3270.ui
+- dev.galasa:galasa-master-api-server
+- dev.galasa:galasa-simbank-eclipse
+- dev.galasa:galasa-uber-javadoc
+- dev.galasa:runtime
+- dev.galasa:dev.galasa.simbank.translation
+- dev.galasa:galasa-simbank-maven
