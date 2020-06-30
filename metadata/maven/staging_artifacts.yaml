@@ -92,7 +92,8 @@ stage:
   - dev.galasa:dev.galasa.zosunix.ssh.manager
   - dev.galasa:dev.galasa.zostsocommand.ssh.manager
   - dev.galasa:dev.galasa.zosunixcommand.ssh.manager
-intermediary:
+  - dev.galasa:galasastaging-maven-plugin
+  intermediary:
   - dev.galasa:galasa-eclipse-parent
   - dev.galasa:dev.galasa.eclipse
   - dev.galasa:dev.galasa.eclipse.feature
@@ -106,6 +107,5 @@ intermediary:
   - dev.galasa:galasa-simbank-eclipse
   - dev.galasa:galasa-uber-javadoc
   - dev.galasa:runtime
-  - dev.galasa:galasastaging-maven-plugin
   - dev.galasa:dev.galasa.simbank.translation
   - dev.galasa:galasa-simbank-maven
