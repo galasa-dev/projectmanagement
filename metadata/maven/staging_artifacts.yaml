@@ -55,6 +55,7 @@ stage:
 - dev.galasa:dev.galasa.zosconsole.zosmf.manager
 - dev.galasa:dev.galasa.zosfile.zosmf.manager
 - dev.galasa:dev.galasa.zosmf.manager
+- dev.galasa:dev.galasa.zosprogram.manager
 - dev.galasa:galasa-bom
 - dev.galasa:galasa-boot
 - dev.galasa:galasa-demo-archetype
@@ -112,3 +113,5 @@ intermediary:
 - dev.galasa:runtime
 - dev.galasa:dev.galasa.simbank.translation
 - dev.galasa:galasa-simbank-maven
+- dev.galasa:dev.galasa.webui
+- dev.galasa:dev.galasa.docker.operator
