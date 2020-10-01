@@ -95,6 +95,8 @@ stage:
 - dev.galasa:dev.galasa.zosunix.ssh.manager
 - dev.galasa:dev.galasa.zostsocommand.ssh.manager
 - dev.galasa:dev.galasa.zosunixcommand.ssh.manager
+- dev.galasa:dev.galasa.zosrseapi.manager
+- dev.galasa:dev.galasa.zosbatch.rseapi.manager
 - dev.galasa:galasastaging-maven-plugin
 - dev.galasa:galasa-testharness
 intermediary:
