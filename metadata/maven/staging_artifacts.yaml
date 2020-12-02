@@ -86,6 +86,8 @@ stage:
 - dev.galasa:galasa-managers-logging-parent
 - dev.galasa:galasa-managers-other-parent
 - dev.galasa:dev.galasa.cicsts.ceci.manager
+- dev.galasa:dev.galasa.cicsts.ceda.manager
+- dev.galasa:dev.galasa.cicsts.cemt.manager
 - dev.galasa:dev.galasa.cicsts.manager
 - dev.galasa:galasa-managers-cicsts-parent
 - dev.galasa:dev.galasa.jmeter.manager
