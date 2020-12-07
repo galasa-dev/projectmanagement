@@ -87,13 +87,16 @@ stage:
 - dev.galasa:galasa-managers-other-parent
 - dev.galasa:dev.galasa.cicsts.ceci.manager
 - dev.galasa:dev.galasa.cicsts.ceda.manager
+- dev.galasa:dev.galasa.cicsts.ceda.manager.ivt
 - dev.galasa:dev.galasa.cicsts.cemt.manager
+- dev.galasa:dev.galasa.cicsts.cemt.manager.ivt
 - dev.galasa:dev.galasa.cicsts.manager
 - dev.galasa:galasa-managers-cicsts-parent
 - dev.galasa:dev.galasa.jmeter.manager
 - dev.galasa:dev.galasa.jmeter.manager.ivt
 - dev.galasa:dev.galasa.selenium.manager
 - dev.galasa:dev.galasa.selenium.manager.ivt
+- dev.galasa:dev.galasa.textscan.manager
 - dev.galasa:galasa-managers-testingtools-parent
 - dev.galasa:dev.galasa.zostso.ssh.manager
 - dev.galasa:dev.galasa.zosunix.ssh.manager
