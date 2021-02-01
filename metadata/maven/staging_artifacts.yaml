@@ -98,6 +98,7 @@ stage:
 - dev.galasa:dev.galasa.selenium.manager.ivt
 - dev.galasa:dev.galasa.textscan.manager
 - dev.galasa:galasa-managers-testingtools-parent
+- dev.galasa:dev.galasa.zosconsole.oeconsol.manager
 - dev.galasa:dev.galasa.zostso.ssh.manager
 - dev.galasa:dev.galasa.zosunix.ssh.manager
 - dev.galasa:dev.galasa.zostsocommand.ssh.manager
