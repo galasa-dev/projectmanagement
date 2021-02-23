@@ -3,9 +3,9 @@
 Anyone can contribute to the Galasa project and we welcome your contributions!
 
 There are multiple ways to contribute: report bugs, fix bugs, contribute code, improve upon documentation,etc.  You must follow these guidelines:
-* [Raising issues](https://github.com/galasa-dev/projectmanagement/CONTRIBUTING.md#raising-issues)
-* [Coding Standards](https://github.com/galasa-dev/projectmanagement//CONTRIBUTING.md#coding-standards)
-* [Raising documentation issues](https://github.com/galasa-dev/projectmanagement/CONTRIBUTING.md#raising-doc-issues)
+* [Raising issues](https://github.com/galasa-dev/projectmanagement/blob/master/contributing.md#raising-issues)
+* [Coding Standards](https://github.com/galasa-dev/projectmanagement/blob/master/contributing.md#coding-standards)
+* [Raising documentation issues](https://github.com/galasa-dev/projectmanagement/blob/master/contributing.md#raising-documentation-issues)
 
 ## Raising issues
 Please raise any bug reports on the [Galasa project repository's GitHub issue tracker](https://github.com/galasa-dev/projectmanagement/issues). Be sure to search the list to see if your issue has already been raised. If your issue is already raised, feel free to leave a comment to let us know you have found the same issue or to add useful information. See something that you might be able to help with? Show us your best solution!
