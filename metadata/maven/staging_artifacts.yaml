@@ -23,6 +23,7 @@ stage:
 - dev.galasa:dev.galasa.framework.api.testcatalog
 - dev.galasa:dev.galasa.framework.api.cps
 - dev.galasa:dev.galasa.framework.api.ras
+- dev.galasa:dev.galasa.framework.api.webui
 - dev.galasa:dev.galasa.framework.docker.controller
 - dev.galasa:dev.galasa.framework.k8s.controller
 - dev.galasa:dev.galasa.framework.maven.repository
@@ -91,12 +92,19 @@ stage:
 - dev.galasa:dev.galasa.cicsts.cemt.manager
 - dev.galasa:dev.galasa.cicsts.cemt.manager.ivt
 - dev.galasa:dev.galasa.cicsts.manager
+- dev.galasa:dev.galasa.cicsts.resource.manager
 - dev.galasa:galasa-managers-cicsts-parent
+- dev.galasa:dev.galasa.java.manager
+- dev.galasa:dev.galasa.java.ubuntu.manager
+- dev.galasa:dev.galasa.java.windows.manager
 - dev.galasa:dev.galasa.jmeter.manager
 - dev.galasa:dev.galasa.jmeter.manager.ivt
+- dev.galasa:dev.galasa.liberty.manager
 - dev.galasa:dev.galasa.selenium.manager
 - dev.galasa:dev.galasa.selenium.manager.ivt
 - dev.galasa:dev.galasa.textscan.manager
+- dev.galasa:dev.galasa.phoenix2.manager
+- dev.galasa:dev.galasa.windows.manager
 - dev.galasa:galasa-managers-testingtools-parent
 - dev.galasa:dev.galasa.zosconsole.oeconsol.manager
 - dev.galasa:dev.galasa.zostso.ssh.manager
@@ -106,6 +114,7 @@ stage:
 - dev.galasa:dev.galasa.zosrseapi.manager
 - dev.galasa:dev.galasa.zosbatch.rseapi.manager
 - dev.galasa:dev.galasa.zosfile.rseapi.manager
+- dev.galasa:dev.galasa.zosliberty.manager
 - dev.galasa:galasastaging-maven-plugin
 - dev.galasa:galasa-testharness
 intermediary:
@@ -127,3 +136,12 @@ intermediary:
 - dev.galasa:dev.galasa.webui
 - dev.galasa:dev.galasa.docker.operator
 - dev.galasa:galasa-simplatform-webapp
+- dev.galasa:dev.galasa.gradle.impl
+- dev.galasa:galasa-isolated-full
+- dev.galasa:galasa-isolated-full-maven-repo
+- dev.galasa:galasa-isolated-mvp
+- dev.galasa:galasa-isolated-mvp-maven-repo
+- dev.galasa.githash:dev.galasa.githash.gradle.plugin
+- dev.galasa.obr:dev.galasa.obr.gradle.plugin
+- dev.galasa.testcatalog:dev.galasa.testcatalog.gradle.plugin
+- dev.galasa.tests:dev.galasa.tests.gradle.plugin
