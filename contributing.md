@@ -3,9 +3,9 @@
 Anyone can contribute to the Galasa project and we welcome your contributions!
 
 There are multiple ways to contribute: report bugs, fix bugs, contribute code, improve upon documentation,etc.  You must follow these guidelines:
-* [Raising issues](https://github.com/galasa-dev/projectmanagement/blob/master/contributing.md#raising-issues)
-* [Coding Standards](https://github.com/galasa-dev/projectmanagement/blob/master/contributing.md#coding-standards)
-* [Raising documentation issues](https://github.com/galasa-dev/projectmanagement/blob/master/contributing.md#raising-documentation-issues)
+* [Raising issues](https://github.com/galasa-dev/projectmanagement/blob/main/contributing.md#raising-issues)
+* [Coding Standards](https://github.com/galasa-dev/projectmanagement/blob/main/contributing.md#coding-standards)
+* [Raising documentation issues](https://github.com/galasa-dev/projectmanagement/blob/main/contributing.md#raising-documentation-issues)
 
 ## Raising issues
 Please raise any bug reports on the [Galasa project repository's GitHub issue tracker](https://github.com/galasa-dev/projectmanagement/issues). Be sure to search the list to see if your issue has already been raised. If your issue is already raised, feel free to leave a comment to let us know you have found the same issue or to add useful information. See something that you might be able to help with? Show us your best solution!
@@ -19,8 +19,8 @@ A good bug report is one that make it easy for everyone to understand what you w
 
 If you would like to contribute code, please ensure you follow the coding standards used throughout the existing code base. Some basic rules include:
 
-* all files must have a Copyright including [EPL license](https://github.com/galasa-dev/managers/blob/master/LICENSE) in the header.
-* all submissions must have a signed [Developer Certificate of Origin](https://github.com/galasa-dev/managers/blob/master/CONTRIBUTIONS.md)
+* all files must have a Copyright including [EPL license](https://github.com/galasa-dev/managers/blob/main/LICENSE) in the header.
+* all submissions must have a signed [Developer Certificate of Origin](https://github.com/galasa-dev/managers/blob/main/CONTRIBUTIONS.md)
 * all pull requests (PRs) must have a passing build.
 
 
@@ -30,7 +30,7 @@ All changes should be contributed as pull requests:
    2. Make your changes in a branch of your fork.
    3. Create a pull request for your changed branch. 
    
-We ensure changes pass our series of verification buckets before pushing to master.
+We ensure changes pass our series of verification buckets before pushing to main.
 
 - A team of "reviewers" will be notified of the pull request, will perform a review, and if approved will invoke a full integration build.
 - Based on the results of the build, and if further review is needed, we might need to ask you for a bit more information.
