@@ -40,6 +40,7 @@ For each of the Kubernetes Tekton command, you can follow with `tkn -n galasa-br
 
 ### 3. Regression Test
 
+1. Amend `29-regression-test-galasa.yaml` - set the correct version,  the bootVersion is unlikely to change. 
 1. `kubectl -n galasa-branch-release create -f 29-regression-test-galasa.yaml` - Test Galasa.
 1. Manually install and test the SimBank example in Eclipse.
 
@@ -56,10 +57,15 @@ All the test must past, reruns need to be managed manually at the moment.
 1. `31-oss-sonatype-actions.md` - Do the Sonatype actions detailed in this document.
 1. `32-wait-maven.sh` - run the watch command to wait for the artifacts to reach Maven Central.  The release will appear in the BOM metadata.
 1. Wait until Maven Central is updated.
+1.  Amend `33-resources-image.yaml` - Set the version.
 1. `kubectl -n galasa-branch-release create -f 33-resources-image.yaml` - Build the resources-image.
+1.  Amend `34-deploy-docker-galasa.sh` - Set the version.
 1. `34-deploy-docker-galasa.sh` - Deploy the Container images to ICR.
+1.  Amend `35-deploy-docker-cli.sh` - **Only if CLI being released** - Set the version.
 1. `35-deploy-docker-cli.sh`- **Only if CLI being released** - Deploy the CLI images to ICR.
+1.  Amend `36-deploy-docker-docker-operator.sh` - **Only if Docker Operator being released** - Set the version.
 1. `36-deploy-docker-docker-operator.sh`- **Only if Docker Operator being released** - Deploy the Docker Operator images to ICR.
+1.  Amend `37-deploy-docker-kubernetes-operator.sh` - **Only if Kubernetes Operator being released** - Set the version.
 1. `37-deploy-docker-kubernetes-operator.sh`- **Only if Kubernetes Operator being released** - Deploy the Kubernetes Operator images to ICR.
 
 ### 6. Update Reference Sites
@@ -69,6 +75,7 @@ All the test must past, reruns need to be managed manually at the moment.
 
 ### 7. Tag Release and Deploy CLI
 
+1. Amend `50-tag-galasa.yaml` - Update the tag name,  must be prefixed with lowercase v.
 1. `kubectl -n galasa-branch-release create -f 50-tag-galasa.yaml` - Tag the release on ALL repos.
 1. `52-deploy-cli-release.md` - **Only if CLI being released** - Follow instructions to deploy the CLI to the repo release.
 
