@@ -35,8 +35,8 @@ For each of the Kubernetes Tekton command, you can follow with `tkn -n galasa-br
 
 1. `kubectl -n galasa-branch-release create -f 20-build-galasa.yaml` - Build the Galasa main component.
 1. `kubectl -n galasa-branch-release create -f 21-build-cli.yaml` - **Only if CLI being released** - Build the CLI.
-1. `kubectl -n galasa-branch-release create -f 22-build-cli.yaml` - **Only if Docker Operator being released** - Build the Docker Operator.
-1. `kubectl -n galasa-branch-release create -f 23-build-cli.yaml` - **Only if Kubernetes Operator being released** - Build the Kubernetes Operator.
+1. `kubectl -n galasa-branch-release create -f 22-build-docker-operator.yaml` - **Only if Docker Operator being released** - Build the Docker Operator.
+1. `kubectl -n galasa-branch-release create -f 23-build-kubernetes-operator.yaml` - **Only if Kubernetes Operator being released** - Build the Kubernetes Operator.
 
 ### 3. Regression Test
 
