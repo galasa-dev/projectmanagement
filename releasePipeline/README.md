@@ -18,6 +18,7 @@ The Galasa component is always released,  but the others are only cloned, built,
 ### 1. Setup
 
 1. Clone the argocd repo, main branch.  All the yaml and scripts you will be using can be found in the releasePipeline folder.
+1. Ensure you are logged onto ArgoCD, `argocd login argocd-cicsk8s.hursley.ibm.com`
  
 For each of the Kubernetes Tekton command, you can follow with `tkn -n galasa-branch-release pr logs -f --last` to watch it's progress.  Only move onto the next command once the previous is completed successfully.
 
