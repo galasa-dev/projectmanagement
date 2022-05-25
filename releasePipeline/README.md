@@ -24,8 +24,8 @@ The Galasa component is always released,  but the others are only cloned, built,
 1. watch needs to be installed.
 1. ibmcloud cli needs to be installed and logged in by running:
 ```
-ibmcloud cr region-set global
 ibmcloud login --sso
+ibmcloud cr region-set global
 ```
  
 For each of the Kubernetes Tekton command, you can follow with `tkn -n galasa-branch-release pr logs -f --last` to watch it's progress.  Only move onto the next command once the previous is completed successfully.
