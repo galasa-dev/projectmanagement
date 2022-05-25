@@ -18,7 +18,7 @@ The Galasa component is always released,  but the others are only cloned, built,
 ### 1. Setup
 
 1. Clone the argocd repo, main branch.  All the yaml and scripts you will be using can be found in the releasePipeline folder.
-1. Ensure you are logged onto ArgoCD, `argocd login -sso argocd-cicsk8s.hursley.ibm.com`
+1. Ensure you are logged onto ArgoCD, `argocd login --sso argocd-cicsk8s.hursley.ibm.com`
 1. Ensure you have the latest `galasabld` program from <https://galasadev-cicsk8s.hursley.ibm.com/prod/binary/bld/> and it is on the path.
 1. jq needs to be installed. 
 1. watch needs to be installed.
