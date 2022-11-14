@@ -19,5 +19,5 @@ A clear and concise description of what the bug is.
 ## Expected behavior
 A clear and concise description of what you expected to happen.
 
-## Screenshots and logs
+## Additional context
 If applicable, add screenshots or any relevant output logs to help explain your problem.
