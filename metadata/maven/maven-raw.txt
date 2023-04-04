@@ -244,7 +244,7 @@ dev.galasa:dev.galasa.docker.manager.ivt:0.8.0
 dev.galasa:dev.galasa.elasticlog.manager:0.8.0
 dev.galasa:dev.galasa.elasticlog.manager.ivt:0.8.0
 dev.galasa:dev.galasa.extensions.obr:0.8.0
-dev.galasa:dev.galasa.framework:0.8.0
+dev.galasa:dev.galasa.framework:0.27.0
 dev.galasa:dev.galasa.framework.api:0.8.0
 dev.galasa:dev.galasa.framework.api.authentication:0.8.0
 dev.galasa:dev.galasa.framework.api.bootstrap:0.8.0
