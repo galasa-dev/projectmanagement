@@ -2,7 +2,7 @@
 name: Bug report
 about: Report a bug to help us improve Galasa
 title: ''
-labels: ''
+labels: defect
 assignees: ''
 
 ---
